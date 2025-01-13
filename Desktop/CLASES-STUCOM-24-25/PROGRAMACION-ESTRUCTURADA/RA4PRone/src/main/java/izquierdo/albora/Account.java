@@ -15,6 +15,7 @@ public class Account {
 
     public Account(double balance, String holder) {
         //this.number = number;
+        //THIS.NUMBER = NUMBER;
         this.balance = balance;
         this.holder = holder;
     }
