@@ -73,7 +73,7 @@ public class Bank {
                     sacarDinero(cuenta);
                     break;
                 case 4:
-                    realizarTrasferencia();
+                    realizarTrasferencia(cuenta);
                     break;
                 case 5:
 
@@ -234,10 +234,70 @@ public class Bank {
         
 
     }
+public static void realizarTrasferencia(ArrayList<Account> cuenta) {
+    Scanner sc = new Scanner(System.in);
 
-    public static void realizarTrasferencia() {
-        
-        
-        
+    // Solicitar cuenta origen
+    System.out.println("Ingresa un nombre");
+    String nombreOrigen = sc.nextLine();
+
+    // Buscar la cuenta origen
+    Account cuentaOrigen = null;
+    for (Account account : cuenta) {
+        if (account.getHolder().equalsIgnoreCase(nombreOrigen)) {
+            cuentaOrigen = account;
+            break;
+        }
     }
+
+    if (cuentaOrigen == null) {
+        System.out.println(" << ERROR >>");
+        return;
+    }
+
+    System.out.println("<< TU SALDO ACTUAL ES DE: >> " + cuentaOrigen.getBalance());
+    System.out.println("<< CUÁNTO QUIERES MANDAR: >>");
+    double cantiadadTransferencia = sc.nextDouble();
+    sc.nextLine(); // Consumir el salto de línea restante
+
+    // Validar cantidad a transferir
+    if (cantiadadTransferencia <= 0 || cantiadadTransferencia > cuentaOrigen.getBalance()) {
+        System.out.println(" << ERROR >>");
+        return;
+    }
+
+    // Solicitar cuenta destino
+    System.out.println("<< A QUÉ CUENTA QUIERES ENVIARLO >>");
+    String nombreDestino = sc.nextLine();
+
+    // Buscar la cuenta destino
+    Account cuentaDestino = null;
+    for (Account account : cuenta) {
+        if (account.getHolder().equalsIgnoreCase(nombreDestino)) {
+            cuentaDestino = account;
+            break;
+        }
+    }
+
+    if (cuentaDestino == null) {
+        System.out.println(" << ERROR >>");
+        return;
+    }
+
+    // Realizar la transferencia
+    cuentaOrigen.setBalance(cuentaOrigen.getBalance() - cantiadadTransferencia);
+    cuentaDestino.setBalance(cuentaDestino.getBalance() + cantiadadTransferencia);
+
+    // Mostrar resultados
+    System.out.println("<< TRANSFERENCIA EXITOSA >>");
+    System.out.println("<< NUEVO SALDO DE " + cuentaOrigen.getHolder() + ": " + cuentaOrigen.getBalance() + " >>");
+    System.out.println("<< NUEVO SALDO DE " + cuentaDestino.getHolder() + ": " + cuentaDestino.getBalance() + " >>");
 }
+
+
+        }
+        
+        
+        
+    
+
