@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-14T11:24:34.275592600Z</date>
+  <millis>1697282674275</millis>
+  <nanos>592600</nanos>
+  <sequence>1</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.ConsoleManager</class>
+  <method>getConsole</method>
+  <thread>1</thread>
+  <message>Se utilizara la consola grafica</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:34.576054800Z</date>
+  <millis>1697282674576</millis>
+  <nanos>54800</nanos>
+  <sequence>2</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Identificando directorio de aplicación...</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:34.586540200Z</date>
+  <millis>1697282674586</millis>
+  <nanos>540200</nanos>
+  <sequence>3</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Directorio de aplicación: C:\Program Files (x86)\AutoFirma\AutoFirma</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:34.589534200Z</date>
+  <millis>1697282674589</millis>
+  <nanos>534200</nanos>
+  <sequence>4</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Generando certificado para la comunicación con el navegador web...</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.220403600Z</date>
+  <millis>1697282682220</millis>
+  <nanos>403600</nanos>
+  <sequence>5</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Se guarda el almacén de claves generado en el directorio de instalación de la aplicación</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.365986400Z</date>
+  <millis>1697282682365</millis>
+  <nanos>986400</nanos>
+  <sequence>6</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Importando certificado en el almacén de confianza de Mozilla Firefox...</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.379652600Z</date>
+  <millis>1697282682379</millis>
+  <nanos>652600</nanos>
+  <sequence>7</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.ConfiguratorFirefoxWindows</class>
+  <method>getAllMozillaProfileDirs</method>
+  <thread>1</thread>
+  <message>Se usa el perfil de Firefox: C:\Users\Usuario 1\AppData\Roaming\Mozilla\Firefox\profiles.ini</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.384638900Z</date>
+  <millis>1697282682384</millis>
+  <nanos>638900</nanos>
+  <sequence>8</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.NSPreferences</class>
+  <method>getActiveProfile</method>
+  <thread>1</thread>
+  <message>No se encontro el perfil activo de Mozilla</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.385636200Z</date>
+  <millis>1697282682385</millis>
+  <nanos>636200</nanos>
+  <sequence>9</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.keystores.mozilla.NSPreferences</class>
+  <method>getFireFoxUserProfileDirectory</method>
+  <thread>1</thread>
+  <message>Se utilizara el primer perfil encontrado de Mozilla: USERHOME\AppData\Roaming\Mozilla\Firefox\Profiles\9pLTIhO0.default</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.453462Z</date>
+  <millis>1697282682453</millis>
+  <nanos>462000</nanos>
+  <sequence>10</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Copiando ficheros de configuración...</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.532809700Z</date>
+  <millis>1697282682532</millis>
+  <nanos>809700</nanos>
+  <sequence>11</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Importando certificado en el almacén de confianza de Mozilla Firefox...</message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.533761400Z</date>
+  <millis>1697282682533</millis>
+  <nanos>761400</nanos>
+  <sequence>12</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.ConfiguratorFirefoxWindows</class>
+  <method>execCertUtilCommandLine</method>
+  <thread>1</thread>
+  <message>Se ejecutara el siguiente comando:
+"C:\Program Files (x86)\AutoFirma\AutoFirma\certutil\certutil.exe" -A -d C:\Users\USUARI~1\AppData\Roaming\Mozilla\Firefox\Profiles\9PLTIH~1.DEF -i "C:\Program Files (x86)\AutoFirma\AutoFirma\AutoFirma_ROOT.cer" -n "SocketAutoFirma" -t "C,," </message>
+</record>
+<record>
+  <date>2023-10-14T11:24:42.966385900Z</date>
+  <millis>1697282682966</millis>
+  <nanos>385900</nanos>
+  <sequence>13</sequence>
+  <logger>es.gob.afirma</logger>
+  <level>INFO</level>
+  <class>es.gob.afirma.standalone.configurator.GraphicConfiguratorConsole</class>
+  <method>print</method>
+  <thread>1</thread>
+  <message>Mensaje de consola: Fin de la configuración</message>
+</record>
+</log>

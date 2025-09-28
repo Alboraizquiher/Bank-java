@@ -1,0 +1,14 @@
+[core]
+	editor = \"C:\\Users\\Usuario 1\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = Albora Izquierdo Hernández
+	email = 148754699+Alboraizquiher@users.noreply.github.com
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[safe]
+	directory = C:/xampp/htdocs/BaseX
