@@ -12,28 +12,26 @@
       <ExtraDataItem name="GUI/HelpBrowserDialogGeomety" value="480,54,960,810"/>
       <ExtraDataItem name="GUI/HelpBrowserLastURLList" value="qthelp://org.virtualbox/doc/topics/AdvancedTopics.html,qthelp://org.virtualbox/doc/topics/BasicConcepts.html#settings-storage"/>
       <ExtraDataItem name="GUI/HelpBrowserZoomPercentage" value="100"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=a50e751f-0761-4cba-a632-f9cf6a66245b"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1,0,766,785"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=d39ffe04-a00d-4b64-b692-1f064c4c8295"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,-7,1536,793,max"/>
       <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="55,124,768,648"/>
-      <ExtraDataItem name="GUI/RecentFolderCD" value="C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="F:/DAM2/ISOS"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="C:/Users/Usuario 1/VirtualBox VMs/ver1"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-22.04.3-live-server-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-24.04.1-live-server-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-22.04.3-desktop-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/Windows.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/Windows Server 2019 EVAL x64 es-es 09_23.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="F:/DAM2/ISOS/Ubuntu desktop.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-22.04.3-live-server-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-24.04.1-live-server-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/ubuntu-22.04.3-desktop-amd64.iso,C:/Users/Usuario 1/Desktop/CLASES-STUCOM-24-25/SISTEMAS-INFORMATICOS/MAQUINAS-VIRTU/Windows.iso"/>
       <ExtraDataItem name="GUI/RecentListHD" value="C:\Users\Usuario 1\VirtualBox VMs\ver1\ver1_1.vdi,C:\Users\Usuario 1\VirtualBox VMs\scripts-linux\scripts-linux_3.vdi,C:\Users\Usuario 1\VirtualBox VMs\scripts-linux\scripts-linux_2.vdi,C:\Users\Usuario 1\VirtualBox VMs\scripts-linux\scripts-linux_1.vdi,C:\Users\Usuario 1\VirtualBox VMs\intranet1\intranet1_2.vdi"/>
       <ExtraDataItem name="GUI/SessionInformationDialogGeometry" value="469,299,960,540"/>
       <ExtraDataItem name="GUI/Settings/ExpertMode" value="true"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutMouseIntegration,remindAboutAutoCapture"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
       <ExtraDataItem name="GUI/VMActivityMonitorDataSeriesColors" value="#ffff00ff,#ff0000ff"/>
-      <ExtraDataItem name="HostOnly/{3e6efc71-cde2-40b9-abd0-3438ae12c0f0}/IPAddress" value="192.168.56.1"/>
-      <ExtraDataItem name="HostOnly/{3e6efc71-cde2-40b9-abd0-3438ae12c0f0}/IPNetMask" value="255.255.255.0"/>
-      <ExtraDataItem name="HostOnly/{3e6efc71-cde2-40b9-abd0-3438ae12c0f0}/IPV6Address" value="fe80::1386:2768:1f31:4961"/>
-      <ExtraDataItem name="HostOnly/{3e6efc71-cde2-40b9-abd0-3438ae12c0f0}/IPV6PrefixLen" value="64"/>
-      <ExtraDataItem name="HostOnly/{3e6efc71-cde2-40b9-abd0-3438ae12c0f0}/Name" value="VirtualBox Host-Only Ethernet Adapter"/>
+      <ExtraDataItem name="HostOnly/{5c5a75a7-f09e-46be-a532-c477453925e3}/IPAddress" value="192.168.56.1"/>
+      <ExtraDataItem name="HostOnly/{5c5a75a7-f09e-46be-a532-c477453925e3}/IPNetMask" value="255.255.255.0"/>
+      <ExtraDataItem name="HostOnly/{5c5a75a7-f09e-46be-a532-c477453925e3}/IPV6Address" value="fe80::d3ce:86ad:4c8e:a939"/>
+      <ExtraDataItem name="HostOnly/{5c5a75a7-f09e-46be-a532-c477453925e3}/IPV6PrefixLen" value="64"/>
+      <ExtraDataItem name="HostOnly/{5c5a75a7-f09e-46be-a532-c477453925e3}/Name" value="VirtualBox Host-Only Ethernet Adapter"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{a50e751f-0761-4cba-a632-f9cf6a66245b}" src="C:\Users\Usuario 1\VirtualBox VMs\Windows-0.1\Windows-0.1.vbox"/>
-      <MachineEntry uuid="{8ef5ac81-0f7b-49e7-b522-24fb4dafb324}" src="C:\Users\Usuario 1\VirtualBox VMs\v2\v2.vbox"/>
-      <MachineEntry uuid="{9f2a758e-33ce-49e5-ab43-ec927be757ce}" src="C:\Users\Usuario 1\VirtualBox VMs\vFinal\vFinal.vbox"/>
+      <MachineEntry uuid="{d39ffe04-a00d-4b64-b692-1f064c4c8295}" src="C:\Users\Usuario 1\VirtualBox VMs\LinuxAct2\LinuxAct2.vbox"/>
     </MachineRegistry>
     <MediaRegistry>
       <HardDisks>
