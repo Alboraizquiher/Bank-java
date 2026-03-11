@@ -4,16 +4,11 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0">
   <installation>
-    <key href="file:/F:/DAM2/PRACTICAS/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <key href="file:/F:/STUCOM/DAM2/PRACTICAS/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
     <value href="file:/F:/DAM2/ACESS-DATOS/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
-    <value href="file:/F:/DAM2/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
   </installation>
   <workspace>
     <key href="file:/F:/DAM2/ACESS-DATOS/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
-    <value href="file:/F:/DAM2/PRACTICAS/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
-  </workspace>
-  <workspace>
-    <key href="file:/F:/DAM2/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
-    <value href="file:/F:/DAM2/PRACTICAS/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/F:/STUCOM/DAM2/PRACTICAS/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
   </workspace>
 </setup:LocationCatalog>
